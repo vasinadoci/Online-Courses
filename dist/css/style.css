@@ -6769,6 +6769,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    row-gap: 8px;
   }
 
   .form-modal__checkbox a {
