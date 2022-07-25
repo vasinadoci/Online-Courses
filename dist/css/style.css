@@ -1344,13 +1344,13 @@ img {
 .button__slider-next--t {
   position: absolute;
   top: 60%;
-  right: 20px;
+  right: 10px;
 }
 
 .button__slider-prev--t {
   position: absolute;
   top: 60%;
-  left: 20px;
+  left: 10px;
 }
 
 .testimonials-content {
