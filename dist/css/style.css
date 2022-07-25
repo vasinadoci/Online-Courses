@@ -954,6 +954,10 @@ img {
   align-items: center;
 }
 
+.button {
+  background-color: transparent;
+}
+
 .button svg {
   fill: #424551;
 }
