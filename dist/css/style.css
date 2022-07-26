@@ -6466,6 +6466,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: start;
+    row-gap: 10px;
   }
 
   .article__tags {
@@ -7276,6 +7277,7 @@ img {
   .blog__top {
     display: flex;
     flex-direction: column;
+    align-items: start;
     row-gap: 20px;
   }
 
@@ -7433,6 +7435,13 @@ img {
 
   .post__card--middle {
     flex: 0 1 100%;
+  }
+
+  .toolbar-article {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 10px;
   }
 
   .sidebar-blog__form {
