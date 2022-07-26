@@ -1861,18 +1861,6 @@ img {
   width: 24px;
   height: 24px;
   transition: all 0.3s ease 0s;
-  /* 
-  img {
-     width: 24px;
-     height: 24px;
-  }
-
-  &:focus,
-  &:hover {
-     -webkit-transform: scale(1.2);
-     -ms-transform: scale(1.2);
-     transform: scale(1.2);
-  } */
 }
 
 .footer__info .footer-socials__link .footer-socials__icon {
@@ -1918,7 +1906,6 @@ img {
   font-size: 0.75rem;
   line-height: 150%;
   transition: all 0.3s ease 0s;
-  /* or 18px */
   color: rgba(255, 255, 255, 0.4901960784);
 }
 
@@ -1968,8 +1955,6 @@ img {
 .footer__bottom {
   width: 100%;
   height: 58px;
-  /* background: #FFFFFF;
-  opacity: 0.05; */
 }
 
 .footer__bottom .footer__bottom-body {
@@ -7315,6 +7300,7 @@ img {
   .footer__bottom .footer__bottom-body {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: start;
   }
 
