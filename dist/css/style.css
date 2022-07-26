@@ -2079,7 +2079,7 @@ img {
 }
 
 .modal__title {
-  margin: 0px 0px 24px 0px;
+  margin-bottom: calc(10px + 14 * (100vw - 350px) / 1570);
   font-weight: 700;
   font-size: 1.75rem;
   line-height: 150%;
@@ -2088,7 +2088,7 @@ img {
 }
 
 .modal__desc {
-  margin: 0px 0px 24px 0px;
+  margin-bottom: calc(10px + 14 * (100vw - 350px) / 1570);
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 150%;
@@ -2176,7 +2176,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 24px 0px 0px 0px;
+  padding-top: calc(10px + 14 * (100vw - 350px) / 1570);
   border-top: 1px solid #E5E8ED;
 }
 
@@ -7319,6 +7319,18 @@ img {
     display: flex;
     flex-direction: column;
     align-items: start;
+  }
+
+  .form-modal__field input {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .button__form-modal:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .form-modal__question:not(:last-child) {
+    margin-bottom: 10px;
   }
 
   .couses-page__nav {
