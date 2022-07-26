@@ -7305,6 +7305,10 @@ img {
     align-items: start;
   }
 
+  .modal__desc {
+    display: none;
+  }
+
   .form-modal__field input {
     padding: 8px 8px 8px 8px;
   }
