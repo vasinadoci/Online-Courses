@@ -958,17 +958,12 @@ img {
   background-color: transparent;
 }
 
-.button svg {
-  fill: #424551;
-}
-
 .button:hover svg {
   background-color: #FF3F3A;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   fill: #ffffff;
-  stroke: white;
 }
 
 .slider {
